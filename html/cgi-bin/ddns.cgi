@@ -25,6 +25,7 @@ use strict;
 #use warnings;
 #use CGI::Carp 'fatalsToBrowser';
 
+#--general-functions文件包括很多 工具函数，例如初始化 输入，参数校验，保存等等
 require '/var/ipfire/general-functions.pl';
 require "${General::swroot}/lang.pl";
 require "${General::swroot}/header.pl";
